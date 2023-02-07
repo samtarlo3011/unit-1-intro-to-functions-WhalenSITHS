@@ -23,19 +23,18 @@ def addSquares(iRange):
         length = length +5 
         t.right(5)
 addSquares(60) """
-def star(x, y):
+
+def star(x):
     for i in range(5):
         t.forward(x)
-        t.left(y)
+        t.left(144)
 
-def star_spiral(x):
-    length = 5
-    for i in range(x):
-        star(length,144)
+def many_stars():
+    length = 25
+    for i in range(60):
+        star(length)
         t.right(5)
         length += 5
-star_spiral(60)
 
-
-
+many_stars()
 turtle.done()
