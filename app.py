@@ -1,7 +1,7 @@
 import turtle
 from turtle import *
 t = Turtle()
-
+print("test")
 t.speed('fastest')
 def square(sidelength):
     '''Draws a square of a
